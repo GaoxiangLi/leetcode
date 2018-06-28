@@ -7,7 +7,7 @@ using namespace std;
 //f(j-1)+S(j) 如果该值小于0 则放弃 开始新的子段
 class solution{
 	int maxSubarray(vector<int> &nums){
-		int result=0,f=0;
+		int result=nums[0],f=0;
 		for(int i=0;i<nums.size();i++){
 			f=max(f+nums[i],nums[i]);
 			result=max(f,result);

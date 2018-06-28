@@ -18,3 +18,5 @@ class solution{
 	
 };
 //index i间隔为1 比较/替换
+//       0 1 1 1 2 2 3 
+
